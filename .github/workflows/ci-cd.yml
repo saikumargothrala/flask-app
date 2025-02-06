@@ -36,4 +36,3 @@ jobs:
       - name: Deploy to Render
         run: |
           curl -fsSL https://render.com/deploy -d '{"branch": "main"}'  # Deploy to Render (you can use other platforms here)
-
